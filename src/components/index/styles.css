@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.corpo{
+  display: flex;
+  justify-content: center;
+  /* width: 100vh; */
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  height: 60px;
+  border-radius: 50%;
+  word-break: break-word;
+  width: 60px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 30vw;
+}
+
+#futsal:hover{
+  opacity: 50%;
+}
+
+#futClassico:hover{
+  opacity: 50%;
+}
+
+#society:hover{
+  opacity: 50%;
+}

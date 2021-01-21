@@ -1,5 +1,6 @@
 import React from 'react';
-import { render }  from 'react-dom';
-import Inputs from './components/inputs_text'
+import { render } from 'react-dom';
+import App from './App'
 
-render(<Inputs />, document.getElementById('app'))
+
+render(<App />, document.getElementById('app'));
